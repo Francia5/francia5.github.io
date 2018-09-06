@@ -311,12 +311,12 @@ small, h5 {
 @media screen and (max-width:991px) {
 	#photo {
 		height: 35vh;
-		margin-left: 38%; 
+		margin-left: 30%; 
 
 	}
 
 	.hidden li, .ghost, .spaced{
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 		font-size: 1em;
 	}
 
@@ -347,3 +347,7 @@ h5, .description {
 	color: rgba(209, 206, 206, 0.911);
 }
 
+.link {
+	width: 30px;
+	height: 30px;
+}
