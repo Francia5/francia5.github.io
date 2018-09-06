@@ -27,27 +27,28 @@ spans.forEach((span, idx) => {
     }, 750 * (idx + 1))
 });
 
-// $(function () {
-//     var nav = $(".juan");
-//     $(window).scroll(function () {
-//         var scroll = $(window).scrollTop();
-//         nav
-
-//         if (scroll) {
-//             nav.removeClass(".juan");
-//             nav.addClass(".change");
-//         } 
-//     });
-// });
 
 $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600 && window.scrollY < 1100) {
-            $('.navscroll').addClass("change");
+            $(".navscroll").addClass("change");
         } else if (window.scrollY >= 1100 && window.scrollY <= 1200) {
             $(".navscroll").removeClass("change");
         }  else {
             $(".navscroll").removeClass("change");
+           
         }
     });
 });
+
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 450) {
+            $(".name").addClass("hd");
+        } else {
+            $(".name").removeClass("hd");
+            $(".name").addClass("show");
+        }
+    });
+});
+

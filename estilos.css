@@ -82,15 +82,44 @@ body {
   border-bottom: 0;
 }
 
-.hidden ul li {
+.hidden {
 	z-index: 100;
+
+	
 }
+
+.spaced, .ghost{
+	font-size:3em;
+
+}
+
+.show {
+	display: block;
+}
+
+.hd {
+	display: none;
+}
+
+.name {
+	margin-bottom: 800px;
+}
+
+#photo {
+	height: 50vh;
+	margin-top: 100px;
+
+}
+
+
+
+
 
 .text li {
   display: inline-block;
   float: left;
-  font-weight: 700;
-  font-size: 2em;
+  /* font-weight: 700;
+  font-size: 2em; */
   color: #fff;
   opacity: 1;
   transition: all 0.5s ease-in-out;
@@ -114,19 +143,21 @@ body {
 	color: #fff;
 	height: 100vh;
 	z-index: 1;
+
+}
+
+#proud h2 {
+	font-size: 4em;
 }
 
 
-.word {
-	margin-top: 50px;
-}
 
 .word span {
 	font-family: 'Fredericka the Great', cursive;
 
 }
 
-#proud h1 {
+#proud h2 {
 	font-family: 'Fredericka the Great', cursive;
 }
 
@@ -253,5 +284,66 @@ body {
 .navscroll.change {
     background-color:white;
     color:black;
+}
+
+ 
+
+small, h5 {
+	color: black;
+}
+
+
+@media screen and (min-width:991px) {
+
+	#about {
+	margin-top: 15%;
+	}
+
+	#photo {
+		margin-left: 20%; 
+
+	}
+
+
+}
+
+
+@media screen and (max-width:991px) {
+	#photo {
+		height: 35vh;
+		margin-left: 38%; 
+
+	}
+
+	.hidden li, .ghost, .spaced{
+		margin-bottom: 100px;
+		font-size: 1em;
+	}
+
+	.word span  {
+		font-size: 3em;
+	}
+
+	#about {
+		margin-bottom: 20px;
+	}
+
+	#proud h2 {
+		font-size: 2em;
+	}
+
+	#proud {
+		margin-top: 10%;
+	}
+
+}
+
+.box {
+	background-color:rgb(87, 85, 85);
+	opacity: .9;
+}
+
+h5, .description {
+	color: rgba(209, 206, 206, 0.911);
 }
 

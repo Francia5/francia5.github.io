@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Particulas</title>
+	<title>Francia Vázquez</title>
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lekton" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
 	<link rel="stylesheet" href="estilos.css">
 </head>
@@ -30,9 +32,9 @@
 				</div>
 			</div>
 			<div class="row" id="home">
-				<div class="col-3 offset-4">
+				<div class="col-3 offset-4 name show hd">
 							<ul class="text hidden">
-								<li>F</li>
+								<li class="spaced">F</li>
 								<li class="ghost">r</li>
 								<li class="ghost">a</li>
 								<li class="ghost">n</li>
@@ -57,13 +59,15 @@
 								<li class="ghost">d</li>
 							</ul>
 				</div>
-
 			</div>
 	</section>
 		
 	<main  class="container-fluid">
 		<div id="blanco" class="row">
-			<div id="about" class="offset-4 col-7 mt-5">
+			<div class= "col-sm-12 col-lg-4">
+				<img id="photo" class="img-fluid rounded-circle" src="./assets/images/francia-labo.jpg" alt="Francia">
+			</div>
+			<div id="about" class="col-sm-12 col-lg-6 text-center ">
 				<div class="word">
 					<span>A</span>
 					<span>B</span>
@@ -71,19 +75,68 @@
 					<span>U</span>
 					<span>T</span>
 				</div>
-				<article class="mt-4">
-					<p>I used to be a Makeup artist and love everything in that world, now I became a passionate of the code. I truly believe that
-						programming can change your logical reasoning and also the way you see the world, that’s why I decided to be a Front-End Web
-						Developer.</p>
+				<article >
+					<p class="mt-4">I used to be a Makeup artist and love everything in that world, now I became a passionate of the code.
+						I truly believe that programming can change the way you see the world by using logical thinking, that’s why I decided to
+					be a Front-End Web Developer.</p>
 				</article>
+				<article>
+					<p class="mt-4">If you want to know more about me, talk about projects or if we can work together plis contact me</p>
+				</article>
+				<div class="container ">
+					<div class="row redes-sociales justify-content-center ">
+						<div class="col-auto">
+							<a href='https://www.linkedin.com/in/francia-vazquez/' target="_blank">
+								<span class="ref">
+									<i class="fab fa-linkedin"></i>
+								</span></a>
+						</div>
+						<div class="col-auto">
+							<a href="https://github.com/Francia5" target="_blank" class="ref">
+								<span class="ref">
+									<i class="fab fa-github"></i>
+								</span></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="offset-4 col-4 mt-5" id="proud">
-				<h1>Proud Of</h1>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab qui expedita voluptate fugiat provident iusto perferendis, quisquam, veritatis similique aspernatur nesciunt autem aliquid quasi debitis nisi cum ex! Fugiat, debitis?</p>
+			<div class="col-12 mt-5" id="proud">
+				<h2 class="text-center">Proud Of</h2>
+				<div class="card-group mt-5 col-sm-4 col-md-12">
+					<div class="card box">
+						<h5 class="card-title text-center mt-2">E-commerce</h5>
+						<img class="card-img-top" src="./assets/images/getit.png" alt="Card image cap">
+						<small class="ml-2 mt-3 description">You can get anithing you want in this e-commerce, just with one click. (Single Page Application)</small class="mt-3">
+						<div class="row">
+							<div class="offset-4 col-lg-4 mt-3">
+								<a href="https://github.com/Francia5/single-page-application" class="b-demo btn btn-outline-light">Github</a>
+							</div>
+						</div>
+					</div>
+					<div class="card ml-lg-2 box">
+						<h5 class="card-title text-center mt-2">Pokedex</h5>
+						<img class="card-img-top" src="./assets/images/pokemon.png" alt="Card image cap">
+						<small class="ml-2 mt-3 mr-2 description">Digital encyclopedia designed to catalogue and provide information regarding the various species of Pokémon. (API Pokémon)</small class="mt-3">
+						<div class="row">
+							<div class="offset-4 col-lg-4 mt-3">
+								<a href="https://github.com/Francia5/pokedex" class="b-demo btn btn-outline-light">Github</a>
+							</div>
+						</div>
+					</div>
+					<div class="card ml-lg-2 box">
+						<h5 class="card-title text-center mt-2">Extract Links</h5>
+						<img class="card-img-top omg" src="./assets/images/links.png" alt="Card image cap">
+						<small class="ml-2 mt-3 mr-2 description">Don´t stress yourself looking for the links in your files this library does it for you</small>
+						<div class="row">
+							<div class="offset-4 col-lg-4 mt-3">
+								<a href="https://github.com/Francia5/extract-links-from-md" class="b-demo btn btn-outline-light">Github</a>
+							</div>
+						</div>	
+					</div>
+				</div>
 			</div>
-
 		</div>
 	</main>
 
